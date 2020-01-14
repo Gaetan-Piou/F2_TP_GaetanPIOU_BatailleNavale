@@ -545,7 +545,6 @@ void tir(JOUEUR Players[2], int idDefenseur, int espace, int joueurActif) {
             while(coule==1 && j<TAILLE_TORPILLEUR) {
                 if(Players[idDefenseur].Torpilleurs[i].casesTorpilleur[j].etatCase!=3) {
                     coule = 0;
-                    printf("JaaJ");
                 }
                 j++;
             }
